@@ -8,9 +8,9 @@ const router = express.Router();
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 // Conexiones a base de datos
-mongoose.connect("mongodb+srv://prog_web:ProgWebMintic2022@clusterprogweb.8ykb8.mongodb.net/ActividadesDB?retryWrites=true&w=majority");
+mongoose.connect("**********");
 
-
+//mongodb+srv://prog_web:ProgWebMintic2022@clusterprogweb.8ykb8.mongodb.net/ActividadesDB?retryWrites=true&w=majority
 //Operaciones CRUD
 
 router.get('/', (req, res) => {
